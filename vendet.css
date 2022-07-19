@@ -1,0 +1,48 @@
+body{
+    background-image: linear-gradient(to bottom right,#62C370,#9AD1D4,#C2F9BB);
+  }
+
+
+main p {
+    font-family: 'Roboto Mono', monospace;
+    color: grey;
+    background-color: white;
+    opacity: 0.8;
+  }
+
+img{
+  filter: grayscale(100%);
+  width: 90%;
+  height: 80%;
+}
+ 
+  img:hover{
+    filter: grayscale(0);
+    transition: 800ms;
+    transform: scale(1.1) ;
+  }
+
+
+  .rreshtifotot{
+    box-sizing: border-box;
+    margin: 30px 15px 10px 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  
+  }
+
+@media (max-width:860px){
+  img{
+    width: 95%;
+    height: 95%;
+  }
+
+  .rreshtifotot{
+  margin: 35px 10px 10px 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  
+  }
+
+}

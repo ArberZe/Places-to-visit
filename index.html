@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+main p{
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Parisienne', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Teko', sans-serif;
+font-family: 'Yellowtail', cursive;
+}
+
+body {
+  /* The image used */
+  background-image: url(fotot/bckgrnd2.jpg);
+
+  /* Full height */
+  height: 100vh; 
+  overflow: hidden;
+
+  /* Center and scale the image nicely */
+  background-position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main p{
+    color: grey;
+    background-color: whitesmoke;
+    opacity: 0.7;
+    border-radius: 7px;
+    padding: 30px;
+    margin: auto;
+    font-size: 36px;
+    text-align: center;
+}
+
+
+@media(max-width:960px){
+  main p{
+    padding: 10px;
+    margin:auto;
+    font-size: 30px;
+    text-align: center;
+}
+}
+@media (max-width:860px){
+  main p{
+    padding: 10px;
+    margin:auto;
+    font-size: 24px;
+    text-align: center;
+}
+}
+
+    </style>
+
+</head>
+<body>
+    
+    
+    <div class="mbajtesi">
+    <header>
+        <h1>Visit.</h1>
+    </header>
+    <nav>
+        
+        <div class="topnav" id="myTopnav">
+            <a href="index.html" class="active">Home</a>
+            <div class="dropdown">
+              <button class="dropbtn">Vendi 
+              </button>
+              <div class="dropdown-content">
+                <a href="Europa.html">Europa</a>
+                <a href="Azia.html">Azia</a>
+                <a href="Australia.html">Australia</a>
+                <a href="SH.B.A.html">SH.B.A</a>
+              </div>
+            </div> 
+            <a href="mailto:arberzeka01@gmail.com?=important">Kontakt</a>
+            <a href="rrethnesh.html">About</a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+          </div>          
+          
+</nav>
+
+<main>
+    <p><bold>Shiko dhe gjej vendet me te bukura <br/>
+        rreth botes qe ia vlejne per tu vizituar,
+        me histori,mite dhe legjenda<br/> te ndryshme!</bold></p>
+</main>
+
+<footer>
+    <p>Të gjitha te drejtat e rezervuara 2020&copy;</p>
+</footer>
+</div>
+
+<script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+
+    alert("For a better experiece view this website on Desktop or Laptop")
+    </script>
+</body>
+
+</html>
+
